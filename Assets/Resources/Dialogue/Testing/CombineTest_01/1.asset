@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  actorID: 
+  subID: 
+  description: 
+  gameFlags:
+  - flagID: 
+    flagValue: 0
+  - flagID: 
+    flagValue: 0
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 4b4b17313049ca6458f35820c56f5eca, type: 2}
+    dialText: Damn, <color="red">baby.
+    updateBehaviour: 1
+    otherUpdates: 1
+    actorMood: 1
+    actorRotation: 2
+    rotationDirection: 2
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate:
+    - profileID: 
+      newTitle: 
+  - profile: {fileID: 11400000, guid: 4b4b17313049ca6458f35820c56f5eca, type: 2}
+    dialText: Do my eyes decieve me?
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: 1
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 1
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 4b4b17313049ca6458f35820c56f5eca, type: 2}
+    dialText: 'Greetings. My name is
+
+      Sgt. Bubbles.'
+    updateBehaviour: 1
+    otherUpdates: 1
+    actorMood: 1
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 0
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate:
+    - profileID: Hank
+      newTitle: Mrs. Crowley
+    - profileID: Crank
+      newTitle: Correct
+  - profile: {fileID: 11400000, guid: 648ab50e6a9bee24d885da3806876a35, type: 2}
+    dialText: May I ask you...
+    updateBehaviour: 0
+    otherUpdates: 1
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 648ab50e6a9bee24d885da3806876a35, type: 2}
+    dialText: "What are your thoughts on eating \nbreakfast for dinner?"
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+  dialogueResponses:
+  - index: 0
+    responseText: 'Sounds pretty
+
+      reasonable.'
+    newDialogue: {fileID: 11400000, guid: 62f6dd90b9c68fe4c92b5ea89d5b156f, type: 2}
+  - index: 1
+    responseText: 'That just feels
+
+      wrong...'
+    newDialogue: {fileID: 0}
+  - index: 2
+    responseText: "What's a \nbreakfast?"
+    newDialogue: {fileID: 0}
+  - index: 3
+    responseText: 'This is dumb
+
+      filler text.'
+    newDialogue: {fileID: 0}
+  - index: 4
+    responseText: "The old world is \ndying."
+    newDialogue: {fileID: 0}

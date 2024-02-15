@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd455790bbd78b1478493097bf0f47b8, type: 3}
+  m_Name: Paprika_AnimationHolder
+  m_EditorClassIdentifier: 
+  ActorID: 
+  Description: 
+  directionalAnimations:
+  - {fileID: 11400000, guid: d65157141cd04ac4b983ef34be1cf568, type: 2}
+  - {fileID: 11400000, guid: 4e074045233694e4983df89431785cdf, type: 2}
+  - {fileID: 11400000, guid: c1b3178a54657b446941535fc08cb7e5, type: 2}
+  behavioralAnimationCollection:
+  - Mood: Lax
+    actions:
+      idle: {fileID: 11400000, guid: 6d8fbc6820a4ec747af95f7a840767eb, type: 2}
+      talk: {fileID: 11400000, guid: 89d2da68a0d4d7f49800709147d88f89, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Sad
+    actions:
+      idle: {fileID: 11400000, guid: e7167fcc9d7e36a4e86e1ccc7b69127a, type: 2}
+      talk: {fileID: 11400000, guid: 0f1762e57b0592646a69ebf794e87bda, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Shock
+    actions:
+      idle: {fileID: 11400000, guid: c475bc426ed27fc4db7ae6629e43935b, type: 2}
+      talk: {fileID: 11400000, guid: 63b686c7f4fe41a429f1cf372f8ecce1, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Smug
+    actions:
+      idle: {fileID: 11400000, guid: e6a59532dede9f34b80f28c083f74251, type: 2}
+      talk: {fileID: 11400000, guid: 3400b9e15ceee5e4f85392f4f00a6ad0, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Sus
+    actions:
+      idle: {fileID: 11400000, guid: 3a9da01f1e04efd43a7c9ec0e9946e6b, type: 2}
+      talk: {fileID: 11400000, guid: 48ca05714c1b1af45808c41df4159afa, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  otherAnimation: []

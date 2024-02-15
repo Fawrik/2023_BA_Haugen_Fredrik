@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd455790bbd78b1478493097bf0f47b8, type: 3}
+  m_Name: ResponseBoxes
+  m_EditorClassIdentifier: 
+  ActorID: ResponseBoxes
+  Description: Hacky collection of responseboxes
+  fourDirectionalAnimations: []
+  otherAnimation:
+  - groupName: None
+    spriteAnimation: {fileID: 11400000, guid: 1e7bc67a2331a5e479ed4f4c117db5ec, type: 2}
+  - groupName: selUp
+    spriteAnimation: {fileID: 11400000, guid: 565534e2db978c840876a57ed4f4d22b, type: 2}
+  - groupName: selMidUp
+    spriteAnimation: {fileID: 11400000, guid: a76aa39b1fcb4e344adf6ac8ef009a53, type: 2}
+  - groupName: selMid
+    spriteAnimation: {fileID: 11400000, guid: cb5bbf934998a824a97072d193fef7ef, type: 2}
+  - groupName: selMidDown
+    spriteAnimation: {fileID: 11400000, guid: 40a50496f01106e4c91579617c37b346, type: 2}
+  - groupName: selDown
+    spriteAnimation: {fileID: 11400000, guid: 7fc15e5a756116640b2035b008c8d0c5, type: 2}

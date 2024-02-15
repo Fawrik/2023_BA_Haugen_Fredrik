@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd455790bbd78b1478493097bf0f47b8, type: 3}
+  m_Name: Davos_AnimationHolder
+  m_EditorClassIdentifier: 
+  ActorID: 
+  Description: 
+  directionalAnimations:
+  - {fileID: 11400000, guid: c1e0a2f6e7cbdb845a5126d8d3cacfa4, type: 2}
+  - {fileID: 11400000, guid: d934528da872ed944bd5b2b7cb365b24, type: 2}
+  - {fileID: 11400000, guid: c2ca0e8818f02534080a9bd7c66bbc67, type: 2}
+  behavioralAnimationCollection:
+  - Mood: Angry
+    actions:
+      idle: {fileID: 11400000, guid: ae8d1c1be60035c46ba6799e6dc225bd, type: 2}
+      talk: {fileID: 11400000, guid: bc5d6728bebe8b942b0bc98e33889187, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Determ
+    actions:
+      idle: {fileID: 11400000, guid: 9779148734bdc4c479ee6b394103669c, type: 2}
+      talk: {fileID: 11400000, guid: f4b460384312f5b4bb01c7831a148c0f, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Joy
+    actions:
+      idle: {fileID: 11400000, guid: 60835d765d0726d4ab9eda3d081fd796, type: 2}
+      talk: {fileID: 11400000, guid: 21f8dea74fe730846a4d78cf19ac0e38, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Lax
+    actions:
+      idle: {fileID: 11400000, guid: ef280ff766a15b34c938d1f0e4e3078e, type: 2}
+      talk: {fileID: 11400000, guid: 87bba10ac3f41564aa6a1d48b2a7084e, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Sad
+    actions:
+      idle: {fileID: 11400000, guid: cc5c95d7d7c6a774e879ae2720fa43cc, type: 2}
+      talk: {fileID: 11400000, guid: 34ad945eb7a8922499434ba83def3fe1, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Shock
+    actions:
+      idle: {fileID: 11400000, guid: c36187a1b22d6164ebc71181b04e4606, type: 2}
+      talk: {fileID: 11400000, guid: cabac96b9f2e1314eb997bd12f89fa9f, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Smug
+    actions:
+      idle: {fileID: 11400000, guid: aa83da8df4a8f1d49a7ef477dde8400c, type: 2}
+      talk: {fileID: 11400000, guid: 2fbda6870cacc5d45accf5aa9eb643f8, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Think
+    actions:
+      idle: {fileID: 11400000, guid: 68b7a6be522b64142be921404d477e60, type: 2}
+      talk: {fileID: 11400000, guid: 35bfcfcee823713408659bfce2d0bd79, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  otherAnimation: []

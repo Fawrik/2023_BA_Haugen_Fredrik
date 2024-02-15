@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: ProfileCheck
+  m_EditorClassIdentifier: 
+  ID: test_1
+  description: 
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 8a36c51318736b34e88f0ba42e69c5b7, type: 2}
+    dialText: 'this should be null. '
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 8a36c51318736b34e88f0ba42e69c5b7, type: 2}
+    dialText: this should also be null
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 4b4b17313049ca6458f35820c56f5eca, type: 2}
+    dialText: this should be empty
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 4b4b17313049ca6458f35820c56f5eca, type: 2}
+    dialText: this should be also empty
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 648ab50e6a9bee24d885da3806876a35, type: 2}
+    dialText: this should be test_01
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  - profile: {fileID: 11400000, guid: 648ab50e6a9bee24d885da3806876a35, type: 2}
+    dialText: This should also be test_01
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  dialogueResponses: []

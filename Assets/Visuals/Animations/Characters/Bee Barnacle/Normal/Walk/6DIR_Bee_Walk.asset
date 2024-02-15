@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 6DIR_Bee_Walk
+  m_EditorClassIdentifier: 
+  tag: Walk
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: fddcf85cc9687d244978de208184b3cd, type: 2}
+  West: {fileID: 11400000, guid: e754fc477c12725498fd1c8ab79904b7, type: 2}
+  NorthWest: {fileID: 11400000, guid: 4a3fa030f7925f9439112a848078f2ac, type: 2}
+  North: {fileID: 0}
+  NorthEast: {fileID: 11400000, guid: 85e1e80f02c369842aacab6c1e4a1ee1, type: 2}
+  East: {fileID: 11400000, guid: 0b8ad459591cba44283ed10ca21f6fbc, type: 2}
+  SouthEast: {fileID: 11400000, guid: 9991445106fc75a4593979ef787c0e2c, type: 2}

@@ -1,0 +1,24 @@
+﻿title: Start
+position: -72,-101
+---
+Sgt. Bubbles: Damn baby, do my eyes decieve me?
+Sgt. Bubbles: An opinionated young FELLA in my presence.
+Sgt. Bubbles: What are your thoughts on current events?
+
+-> They are good actually.
+    <<jump Bad_continue>>
+    Sgt. Bubbles: I applaude you for conforming to the status quoe.
+    Sgt. Bubbles: Oh I might even kiss you.
+    Sgt. Bubbles: *KISS*
+-> They are worrisomly bad.
+    Sgt. Bubbles: *KILL*
+-> No opinion on the matter.
+    <<jump Bad_continue>>
+===
+
+title: Bad_continue
+position: -218,118
+---
+Sgt. Bubbles: Not this fresh hell again
+
+===

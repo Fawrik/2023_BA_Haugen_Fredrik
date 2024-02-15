@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: SW_Actor
+  m_EditorClassIdentifier: 
+  actorID: S.W. Camera
+  subID: 
+  description: I'm Steffen Wes. The second oldest Camera brother.
+  gameFlags: []
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 36786cff2bf17a042bf1cbca5b64d518, type: 2}
+    dialText: I'm Stanley Wes. The second oldest Camera brother.
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 36786cff2bf17a042bf1cbca5b64d518, type: 2}
+    dialText: The UI here is pretty neat.
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 36786cff2bf17a042bf1cbca5b64d518, type: 2}
+    dialText: If it were to be graded, it would surely recieve an OK grade, right?
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  dialogueResponses:
+  - index: 0
+    responseText: Of course, I agree!
+    newDialogue: {fileID: 11400000, guid: b67fa224edeea5e458ba8bf2af563764, type: 2}

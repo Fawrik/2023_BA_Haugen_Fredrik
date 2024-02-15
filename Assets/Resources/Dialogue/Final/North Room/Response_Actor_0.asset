@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: Response_Actor_0
+  m_EditorClassIdentifier: 
+  actorID: Davos
+  subID: 
+  description: Actor showcasing Response UI
+  gameFlags:
+  - flagID: Davos
+    flagValue: 0
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 754ea785a17c85046ab7d781022d95d5, type: 2}
+    dialText: "Yo! \nI'm Davos."
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 2
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: I'm ever so interested in choices...
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: The world is full of meaningful choices, dont you agree?
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Determ
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate:
+    - flagID: receptionist
+      flagValue: 1
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  dialogueResponses:
+  - index: 0
+    responseText: I agree 100%!
+    newDialogue: {fileID: 11400000, guid: 31f2a512859cc1a4382e807b6025da1e, type: 2}

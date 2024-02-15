@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 6DIR_Paprika_Walk
+  m_EditorClassIdentifier: 
+  tag: Walk
+  South: {fileID: 11400000, guid: ada1aba9b1880464795a3cc9f5d01f95, type: 2}
+  SouthWest: {fileID: 11400000, guid: ada1aba9b1880464795a3cc9f5d01f95, type: 2}
+  West: {fileID: 11400000, guid: acaecd86de4db4d4985aeed04e3b8d05, type: 2}
+  NorthWest: {fileID: 11400000, guid: 68bb95c04e699ed4eaa1d7190213ac89, type: 2}
+  North: {fileID: 11400000, guid: 68bb95c04e699ed4eaa1d7190213ac89, type: 2}
+  NorthEast: {fileID: 11400000, guid: 2e0d72faa5f807d4eb63c8173508dc22, type: 2}
+  East: {fileID: 11400000, guid: 0f7e33c08f5f13145b4873c01904a118, type: 2}
+  SouthEast: {fileID: 11400000, guid: 73e60e218140e4a4fb8087b470dd0c1d, type: 2}

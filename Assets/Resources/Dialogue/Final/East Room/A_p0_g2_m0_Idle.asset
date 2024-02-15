@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: A_p0_g2_m0_Idle
+  m_EditorClassIdentifier: 
+  actorID: Branch_A
+  subID: branch
+  description: 
+  gameFlags:
+  - flagID: branch_p
+    flagValue: 0
+  - flagID: branch_g
+    flagValue: 2
+  - flagID: branch_m
+    flagValue: 0
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 3471f8eea662882488ee201ed6970295, type: 2}
+    dialText: Oh my...
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 1
+    rotationDirection: 7
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 3471f8eea662882488ee201ed6970295, type: 2}
+    dialText: That look on your face...
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Shock
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 3471f8eea662882488ee201ed6970295, type: 2}
+    dialText: It's the look of someone with no opinion whatsoever.
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: ShockB
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 3471f8eea662882488ee201ed6970295, type: 2}
+    dialText: 'Here, take this medal. '
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Joy
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: 8c367a9c2c67a6b40888a35c1f3ccf70, type: 2}
+    dialText: You got a medal.
+    updateBehaviour: 0
+    otherUpdates: 1
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate:
+    - flagID: branch_m
+      flagValue: 1
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  dialogueResponses: []

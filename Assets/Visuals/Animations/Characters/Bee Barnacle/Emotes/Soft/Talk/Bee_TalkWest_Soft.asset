@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5992953a247e719459a0a7c6ebe7c8e0, type: 3}
+  m_Name: Bee_TalkWest_Soft
+  m_EditorClassIdentifier: 
+  Frames:
+  - Sprite: {fileID: 515036043, guid: 5b7f31f65a3f8324190b9cb85919e894, type: 3}
+    FrameTimeMultiplier: 1
+  - Sprite: {fileID: -461776030, guid: 5b7f31f65a3f8324190b9cb85919e894, type: 3}
+    FrameTimeMultiplier: 1
+  FrameTime: 1
+  FrameTimeDivider: 4.5
+  tags: []
+  tagz: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Wanella_Idle_Sad
+  m_EditorClassIdentifier: 
+  tag: CrazeA
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: b14ebe4aab608274ab2650c1d7542b2a, type: 2}
+  West: {fileID: 11400000, guid: 276aa2e0feb2a2b45b20036f1a2381b3, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: 6f58539f20dc0c443a57e3e5ac5123ec, type: 2}
+  SouthEast: {fileID: 11400000, guid: caac7ced350ca974b86e7830e9fe6b8a, type: 2}

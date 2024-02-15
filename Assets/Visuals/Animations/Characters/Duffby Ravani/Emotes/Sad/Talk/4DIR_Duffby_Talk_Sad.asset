@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Duffby_Talk_Sad
+  m_EditorClassIdentifier: 
+  tag: Talk
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: 5e3cec9e1396ba54ea8adf3edfb9059e, type: 2}
+  West: {fileID: 11400000, guid: 3f89d308c1e851e4185e8ed57e132a2e, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: 8c3d486ed10d794429f17390aaa3635a, type: 2}
+  SouthEast: {fileID: 11400000, guid: c5bb8f665e1d10444b57e93d1ec94346, type: 2}

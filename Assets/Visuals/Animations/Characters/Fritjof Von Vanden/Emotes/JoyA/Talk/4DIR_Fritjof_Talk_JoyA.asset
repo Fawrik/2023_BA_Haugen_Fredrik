@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Fritjof_Talk_JoyA
+  m_EditorClassIdentifier: 
+  tag: Talk_JoyA
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: d3c479b71371f4f4cb59c50837cc5f21, type: 2}
+  West: {fileID: 11400000, guid: 8591bea3b06a37e40ae372eaec7e877a, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: 585b6a7fe65f9f04caaa1fdc1d5e84bf, type: 2}
+  SouthEast: {fileID: 11400000, guid: d7cd8398cd582634086ecfa10986ffaa, type: 2}

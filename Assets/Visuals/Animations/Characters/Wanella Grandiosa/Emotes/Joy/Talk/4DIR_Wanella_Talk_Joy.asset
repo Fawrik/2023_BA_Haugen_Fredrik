@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Wanella_Talk_Joy
+  m_EditorClassIdentifier: 
+  tag: Talk
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: 6721c0a3477850a439326b97b94905a6, type: 2}
+  West: {fileID: 11400000, guid: 1336882a997926b4c8adfc62fa2aa25f, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: f0633c228f1fb2e47b66e08b3bc2c213, type: 2}
+  SouthEast: {fileID: 11400000, guid: 7e13b26b5bcbe1f43953f7bbc79d59b1, type: 2}

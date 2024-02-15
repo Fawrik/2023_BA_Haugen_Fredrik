@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: Response_Actor_0_0_0
+  m_EditorClassIdentifier: 
+  actorID: 
+  subID: 
+  description: Actor showcasing Response UI
+  gameFlags: []
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: Why yes, I most certainly am perfect.
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Grin
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: Ho ho ho.
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Smug
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: Hm?
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Shock
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate:
+    - flagID: receptionist
+      flagValue: 1
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: You think there was little room for you to express yourself nuanced?
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Think
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: Very well then. I'll ask you again.
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: e6951d06482222b4098b73eb6561a67f, type: 2}
+    dialText: What do you *really* think of me?
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Determ
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  dialogueResponses:
+  - index: 0
+    responseText: You are the best.
+    newDialogue: {fileID: 11400000, guid: d09fd97f7eb30cf409c8a1d7bcd2b222, type: 2}
+  - index: 1
+    responseText: You are the worst.
+    newDialogue: {fileID: 11400000, guid: d09fd97f7eb30cf409c8a1d7bcd2b222, type: 2}
+  - index: 2
+    responseText: You are the averagest.
+    newDialogue: {fileID: 11400000, guid: d09fd97f7eb30cf409c8a1d7bcd2b222, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 6DIR_Paprika_Talk
+  m_EditorClassIdentifier: 
+  tag: Talk
+  South: {fileID: 11400000, guid: ae6104596c2ead64fa714150df458296, type: 2}
+  SouthWest: {fileID: 11400000, guid: ae6104596c2ead64fa714150df458296, type: 2}
+  West: {fileID: 11400000, guid: ca12814919944ca4a912d9af10ed817d, type: 2}
+  NorthWest: {fileID: 11400000, guid: 960223cb34843d24d80e6b5fb3bc290f, type: 2}
+  North: {fileID: 11400000, guid: 960223cb34843d24d80e6b5fb3bc290f, type: 2}
+  NorthEast: {fileID: 11400000, guid: 37cd7f160c217d240afce03e32cbabbb, type: 2}
+  East: {fileID: 11400000, guid: 1f7ecffd23c73774c9ce3212eecb52ff, type: 2}
+  SouthEast: {fileID: 11400000, guid: b45dea780ca9f8444a01b5b3c0cc946c, type: 2}

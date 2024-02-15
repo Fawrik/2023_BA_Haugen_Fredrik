@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: Bee_2_LeaveShy_kind
+  m_EditorClassIdentifier: 
+  actorID: Bee
+  subID: 
+  description: 
+  gameFlags:
+  - flagID: kind
+    flagValue: 6
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: ad951079515a54444ad6a5b68b8e2a32, type: 2}
+    dialText: Ah yes...
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: ad951079515a54444ad6a5b68b8e2a32, type: 2}
+    dialText: You will be asked if you want to leave by pressing Esc.
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Side
+    actorRotation: 2
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: ad951079515a54444ad6a5b68b8e2a32, type: 2}
+    dialText: Say yes... and um you will be taken out of this world.
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  - profile: {fileID: 11400000, guid: ad951079515a54444ad6a5b68b8e2a32, type: 2}
+    dialText: '...
+
+      Anything else?'
+    updateBehaviour: 1
+    otherUpdates: 0
+    actorMood: Down
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorToAvoid: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+    newProfileTitle: 0
+    switchActor: 0
+  dialogueResponses:
+  - index: 0
+    responseText: What to do?
+    newDialogue: {fileID: 11400000, guid: c4f3d743e6e105d47bb480f2c865928b, type: 2}
+  - index: 1
+    responseText: How to leave?
+    newDialogue: {fileID: 11400000}
+  - index: 2
+    responseText: Your name?
+    newDialogue: {fileID: 11400000, guid: 9ab1bf1dad531f246bac2b652155478d, type: 2}
+  - index: 3
+    responseText: I'm good.
+    newDialogue: {fileID: 11400000, guid: 7068fcbdc36d2664db98605e8990f5fa, type: 2}

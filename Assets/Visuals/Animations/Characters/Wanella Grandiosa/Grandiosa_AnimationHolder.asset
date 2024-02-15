@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd455790bbd78b1478493097bf0f47b8, type: 3}
+  m_Name: Grandiosa_AnimationHolder
+  m_EditorClassIdentifier: 
+  ActorID: 
+  Description: 
+  directionalAnimations:
+  - {fileID: 11400000, guid: a76ff3347fec70b4bb2dc70576d69bab, type: 2}
+  - {fileID: 11400000, guid: 37f212c2dcaf6a247aab98fb7c8b4b29, type: 2}
+  - {fileID: 11400000, guid: 0e2068d48ef4aad46b2037be6e48f5ac, type: 2}
+  behavioralAnimationCollection:
+  - Mood: Giggle
+    actions:
+      idle: {fileID: 11400000, guid: ffff9d21b8d185a48bc7c143f85c1b14, type: 2}
+      talk: {fileID: 11400000, guid: 0dfe5da131b2afc4ea6fc1976fcb56e3, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Joy
+    actions:
+      idle: {fileID: 11400000, guid: 5dac094f3e521d84da658dc82918b1c6, type: 2}
+      talk: {fileID: 11400000, guid: 88174694c79620e479075dd6a6d4828e, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Lax
+    actions:
+      idle: {fileID: 11400000, guid: ad45b4744a146bb4db131b87c8ebba16, type: 2}
+      talk: {fileID: 11400000, guid: 4811dc6260ff4ab4580edf151e7fe7bb, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Sad
+    actions:
+      idle: {fileID: 11400000, guid: 1e62e0b0374050f47825b76ab638a9f3, type: 2}
+      talk: {fileID: 11400000, guid: 5b7e2679c8490414fb7a1cfac6c58a63, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: SadB
+    actions:
+      idle: {fileID: 11400000, guid: 641a69735aa3f5045b65d967f6ed58e1, type: 2}
+      talk: {fileID: 11400000, guid: f14e6f3cbd2d890499b38d5fc6da687c, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Shock
+    actions:
+      idle: {fileID: 11400000, guid: 962b595b18912d545bc0deece6c13812, type: 2}
+      talk: {fileID: 11400000, guid: 94f31d16533e2f143b569e32028b66b4, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: ShockB
+    actions:
+      idle: {fileID: 11400000, guid: 66dc1deb9b5e2c24b895a1385fc28db7, type: 2}
+      talk: {fileID: 11400000, guid: 8846c7ca06171ed43ae997b7c46f6db7, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  otherAnimation: []

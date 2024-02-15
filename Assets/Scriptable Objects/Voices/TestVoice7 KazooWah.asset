@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497a580cefbaf4944afe65c1c5659eb6, type: 3}
+  m_Name: TestVoice7 KazooWah
+  m_EditorClassIdentifier: 
+  voiceName: TestVoice Kazoo wah
+  voiceSamples:
+  - {fileID: 8300000, guid: 7157d936b3a06ee4280834e487485018, type: 3}
+  normalPreset:
+    pitchRange: {x: 1.1, y: 1.25}
+    volume: 0.2
+    timeBetweenSamples: {x: 0.14, y: 0.15}
+  emphasisPreset:
+    pitchRange: {x: 1.25, y: 1.4}
+    volume: 0.2
+    timeBetweenSamples: {x: 0.16, y: 0.175}
+  cheerfulPreset:
+    pitchRange: {x: 1.25, y: 1.45}
+    volume: 0.22
+    timeBetweenSamples: {x: 0.135, y: 0.14}
+  unhappyPreset:
+    pitchRange: {x: 0.94, y: 0.97}
+    volume: 0.14
+    timeBetweenSamples: {x: 0.17, y: 0.18}
+  agitatedPreset:
+    pitchRange: {x: 1.1, y: 1.5}
+    volume: 0.27
+    timeBetweenSamples: {x: 0.11, y: 0.13}
+  whisperingPreset:
+    pitchRange: {x: 0.93, y: 1.05}
+    volume: 0.1
+    timeBetweenSamples: {x: 0.148, y: 0.152}
+  slowPreset:
+    pitchRange: {x: 1.1, y: 1.25}
+    volume: 0.2
+    timeBetweenSamples: {x: 0.225, y: 0.25}
+  stutteringPreset:
+    pitchRange: {x: 1.2, y: 1.24}
+    volume: 0.18
+    timeBetweenSamples: {x: 0.12, y: 0.31}

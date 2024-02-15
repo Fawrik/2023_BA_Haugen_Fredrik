@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 6DIR_Bee_Idle
+  m_EditorClassIdentifier: 
+  tag: Idle
+  South: {fileID: 11400000, guid: 036712b51ae2d804684e6af845b93c54, type: 2}
+  SouthWest: {fileID: 11400000, guid: a4cfa7b99df30fd428e98909171992d2, type: 2}
+  West: {fileID: 11400000, guid: 48c38fd2f04940640a84a5c3f1681d5f, type: 2}
+  NorthWest: {fileID: 11400000, guid: 729fd4bc34fab524e9efec78ef3dcdcb, type: 2}
+  North: {fileID: 11400000, guid: 9bc0dde7313f29c43942f47b6499ab55, type: 2}
+  NorthEast: {fileID: 11400000, guid: 9bc0dde7313f29c43942f47b6499ab55, type: 2}
+  East: {fileID: 11400000, guid: 0dc9ad9a9a0c8c04c83a237ee34b707a, type: 2}
+  SouthEast: {fileID: 11400000, guid: 036712b51ae2d804684e6af845b93c54, type: 2}

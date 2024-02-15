@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Bee_Idle_LaxB
+  m_EditorClassIdentifier: 
+  tag: CrazeA
+  South: {fileID: 0}
+  SouthWest: {fileID: 11400000, guid: cf22a1e8436d23f4b94f12945ebe0466, type: 2}
+  West: {fileID: 11400000, guid: 90bcab9f7f27fad47919cf988dd2fdd5, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: 8c9f20f6920a6c441ae10c4b4aceda3e, type: 2}
+  SouthEast: {fileID: 11400000, guid: 0dcff1b713889374f8d561aca25809bd, type: 2}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd455790bbd78b1478493097bf0f47b8, type: 3}
+  m_Name: Bee_AnimationHolder
+  m_EditorClassIdentifier: 
+  ActorID: Bee
+  Description: 
+  directionalAnimations:
+  - {fileID: 11400000, guid: 5e0c0d89e52820b46bd408d4e626e8ce, type: 2}
+  - {fileID: 11400000, guid: 0d8224c13c1c5c2478d1c5deb7f92d2f, type: 2}
+  - {fileID: 11400000, guid: 053857e20e1165340b74eb446d3c2ae8, type: 2}
+  behavioralAnimationCollection:
+  - Mood: Default
+    actions:
+      idle: {fileID: 11400000, guid: 5e0c0d89e52820b46bd408d4e626e8ce, type: 2}
+      talk: {fileID: 11400000, guid: 0d8224c13c1c5c2478d1c5deb7f92d2f, type: 2}
+      walk: {fileID: 11400000, guid: 053857e20e1165340b74eb446d3c2ae8, type: 2}
+      walkAndTalk: {fileID: 0}
+  - Mood: Down
+    actions:
+      idle: {fileID: 11400000, guid: a58ba5cca1b1ef14fa15c1d4889b48cb, type: 2}
+      talk: {fileID: 11400000, guid: b97092ff824d1964b848cef18adfbe65, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Grin
+    actions:
+      idle: {fileID: 11400000, guid: 483bfadd71bf2db48951cda16101baf7, type: 2}
+      talk: {fileID: 11400000, guid: cf4a747e785af9945b926017769bedd2, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Grin
+    actions:
+      idle: {fileID: 11400000, guid: 483bfadd71bf2db48951cda16101baf7, type: 2}
+      talk: {fileID: 11400000, guid: cf4a747e785af9945b926017769bedd2, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Lax
+    actions:
+      idle: {fileID: 11400000, guid: 3d07f6f91110dd340a272d4f9defa097, type: 2}
+      talk: {fileID: 11400000, guid: 6f221c9c0f10d834db142042eb34a635, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: LaxB
+    actions:
+      idle: {fileID: 11400000, guid: 10ef5f4fddad86d4da67105e121a3318, type: 2}
+      talk: {fileID: 11400000, guid: bdead78b6d7157149b8c25d4c9483d9e, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Side
+    actions:
+      idle: {fileID: 11400000, guid: 96bdb96075962aa45b55be8162e4b01f, type: 2}
+      talk: {fileID: 11400000, guid: 661381badbb8bdb48b2ca1675b1166e6, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  - Mood: Soft
+    actions:
+      idle: {fileID: 11400000, guid: 6999cb9bc7290f7498ffe9a82d74b300, type: 2}
+      talk: {fileID: 11400000, guid: 09bd47c6d87d6e84e8e4a6e964f5f66c, type: 2}
+      walk: {fileID: 0}
+      walkAndTalk: {fileID: 0}
+  otherAnimation: []

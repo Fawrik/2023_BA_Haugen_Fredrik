@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3c7ed06fc3bf4eb183db8df67edb5, type: 3}
+  m_Name: 4DIR_Bee_Talk_Down
+  m_EditorClassIdentifier: 
+  tag: Talk
+  South: {fileID: 11400000, guid: bfa2511561bda524d8d5ce7feccc6eec, type: 2}
+  SouthWest: {fileID: 11400000, guid: 64d2bf7a99b6597419f05b674ba1b811, type: 2}
+  West: {fileID: 11400000, guid: 41f160f863602fe44b70d5d3133d82d4, type: 2}
+  NorthWest: {fileID: 0}
+  North: {fileID: 0}
+  NorthEast: {fileID: 0}
+  East: {fileID: 11400000, guid: 089c946889f70c14da7eb52aa1e2d70c, type: 2}
+  SouthEast: {fileID: 11400000, guid: bfa2511561bda524d8d5ce7feccc6eec, type: 2}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: space test 3000
+  m_EditorClassIdentifier: 
+  ID: 
+  description: 
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: 648ab50e6a9bee24d885da3806876a35, type: 2}
+    dialText: "What are your thoughts on eating \nbreakfast for dinner?"
+    canPlayerMove: 1
+    continueTime: 0
+    dialogueProfilesToUpdate: []
+  dialogueResponses:
+  - index: 0
+    responseText: 'Sounds pretty
+
+      reasonable.'
+    newDialogue: {fileID: 11400000, guid: 709e4ffd6843db54db306456bb4c42e5, type: 2}
+  - index: 1
+    responseText: 'That just feels
+
+      wrong...'
+    newDialogue: {fileID: 0}
+  - index: 2
+    responseText: 'This discussion
+
+      is nonesense.'
+    newDialogue: {fileID: 0}
+  - index: 3
+    responseText: "I believe \nin sin."
+    newDialogue: {fileID: 0}
+  - index: 4
+    responseText: You tatsy piece of shit.
+    newDialogue: {fileID: 0}

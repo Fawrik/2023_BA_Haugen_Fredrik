@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 408add87157b98544bee4a10f2e984a7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dialogueTitle: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - responseText: {instanceID: 0}
+  - responseTextSource: {instanceID: 0}
+  - responseHighlightBox: {fileID: 3017369137857889706, guid: d53f9cb8439ce4243a0e7982b13eb77a,
+      type: 3}
+  - responseHighlight: {instanceID: 0}
+  - highlightPlacementSource: {instanceID: 0}
+  - textBoxAnim: {instanceID: 0}
+  - profileBoxAnim: {instanceID: 0}
+  - responseBoxAnimHolder: {instanceID: 0}
+  - continueBopAnim: {instanceID: 0}
+  - responseArrowsAnim: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f147bf465db0a90489a28858eb6f6b52, type: 3}
+  m_Name: TriviaGal_Idle
+  m_EditorClassIdentifier: 
+  actorID: Trivia
+  subID: 
+  description: 
+  gameFlags: []
+  dialogueChunks:
+  - profile: {fileID: 11400000, guid: f9f8d4078f8640048a79f4bc2162c11e, type: 2}
+    dialText: Hey. Interested in some trivia?
+    updateBehaviour: 0
+    otherUpdates: 0
+    actorMood: 0
+    actorRotation: 0
+    rotationDirection: 0
+    actorToLookAt: 
+    actorMovement: 0
+    moveDirstance:
+      direction: 0
+      distance: 0
+    moveDirstances: []
+    movePointID: 
+    movePointIDs: []
+    beepPitch: 0
+    canPlayerMove: 1
+    canTextBeSkipped: 1
+    continueTime: 0
+    cameraState: 0
+    gameFlagsToUpdate: []
+    dialogueProfilesToUpdate: []
+    resetEastRoomFlags: 0
+    quitGame: 0
+  dialogueResponses:
+  - index: 0
+    responseText: Sure.
+    newDialogue: {fileID: 11400000, guid: 5e2363914a11c59468e7e20a0f113ecb, type: 2}
+  - index: 1
+    responseText: Nah.
+    newDialogue: {fileID: 11400000, guid: b67fa224edeea5e458ba8bf2af563764, type: 2}
